@@ -67,7 +67,7 @@ export function UserDropdown() {
 
         <DropdownMenuSeparator className="block sm:hidden bg-gray-600" />
         
-        <DropdownMenuItem onClick={handleSignOut} className="text-gray-100 text-base font-medium focus:bg-transparent focus:text-yellow-500 transition-colors cursor-pointer">
+        <DropdownMenuItem onSelect={handleSignOut} className="text-gray-100 text-base font-medium focus:bg-transparent focus:text-yellow-500 transition-colors cursor-pointer">
           <LogOut className="h-4 w-4 mr-2 hidden sm:block" />
           Logout
         </DropdownMenuItem>
