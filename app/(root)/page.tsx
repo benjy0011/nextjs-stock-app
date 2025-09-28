@@ -17,7 +17,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="md-col-span-1 xl:col-span-2">
+        <div className="md:col-span-1 xl:col-span-2">
           <TradingViewWidget 
             title="Stock Heatmap"
             scriptUrl={getScriptUrl("stock-heatmap")}
